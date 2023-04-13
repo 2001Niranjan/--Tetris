@@ -1,0 +1,73 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+    --white: #fff;
+    --black:#1c2b2d;
+    --blue: #31326f;
+    --light-blue:#005490;
+    --color-primary: #9d0191;
+    --color-secondary: #db6400;
+    --grey:#eee;
+    --dark-grey:#222831;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body{
+    font-family:'Open Sans',sans-serif;
+}
+p{
+    font-size: 1.6em;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.grid{
+ width: 200px;
+ height: 400px;
+ background-color: rgba(0, 187, 255, 0.533);
+ display: flex;
+ flex-wrap: wrap;
+}
+.grid div{
+    height:20px;
+    width: 20px;
+    
+    
+}
+
+.tetromino {
+    background-color:blue;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
